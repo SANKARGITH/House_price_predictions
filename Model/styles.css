@@ -1,0 +1,74 @@
+body {
+    background-image: url('https://images5.alphacoders.com/900/thumb-1920-900021.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    height: 80vh;
+    margin: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 100%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+.card {
+    backdrop-filter: blur(12px);
+    background: transparent;
+    border-radius: 1rem;
+    border: 1px solid white;
+    box-shadow: 2px 3px white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    color: whitesmoke;
+}
+
+.card:hover {
+    border: 1px solid lightgreen;
+}
+
+h2 {
+    /*font-weight: bold;*/
+    color: white;
+    text-align: left;
+}
+
+label {
+    font-weight: 500;
+    color: white;
+}
+
+input, select {
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.6rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
